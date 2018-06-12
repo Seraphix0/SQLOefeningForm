@@ -75,5 +75,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="DbCreate.sql" />
+    <Content Include="DbCreateAssociations.sql" />
+    <Content Include="Procedure_GetCoursesForTeacher.sql" />
+    <Content Include="Trigger_.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
